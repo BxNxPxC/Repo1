@@ -11,16 +11,5 @@ public class Mayor {
 		this.segundo = segundo;
 		this.tercero = tercero;
 	}
-	
-	public int esElMayor(){
-		int mayor = primero;
-	
-		if(segundo > mayor)
-			mayor = segundo;
-		if (tercero > mayor)
-			mayor = tercero;
-		
-		return mayor;
-	}
 
 }
